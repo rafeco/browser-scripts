@@ -23,11 +23,10 @@ function removeElement(element, index, array) {
 }
 
 function simplifyTitle() {
-    var elements = document.getElementsByTagName('span');
+    var elements = document.getElementsByTagName('h4');
 
     if (elements.length > 0) {
-        console.log(elements[0].innerHTML);
-        document.title = elements[0].tagName;
+        document.title = elements[0].textContent;
     }
 }
 
