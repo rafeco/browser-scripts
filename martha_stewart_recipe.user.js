@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Clean up for printing
 // @author       Rafe Colburn
-// @match        https://www.marthastewart.com/*/*
+// @match        https://www.marthastewart.com/*/*?printview
 // @require      https://code.jquery.com/jquery-2.2.4.min.js
 // @grant        none
 // ==/UserScript==
